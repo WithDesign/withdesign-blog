@@ -1,0 +1,121 @@
+///
+// Header
+///
+
+.logo {
+  display: inline;
+}
+
+.nav-wrapper {
+  padding: 20px 25px 15px;
+  border-bottom: 4px solid darken(color(brand, secondary), 10%);
+  background-color: darken(color(brand, secondary), 5%);
+
+  @extend .transition;
+
+  @include breakpoint(max-width breakpoint-value(md)) {
+    padding: 10px 15px 10px;
+  }
+
+  img {
+    max-width: 200px;
+    @include breakpoint(max-width breakpoint-value(md)) {
+      padding-top: 5px;
+    }
+  }
+}
+
+.mobile-nav {
+  @extend .transition;
+}
+@include create-keyframe(fadeInDown);
+@include create-keyframe(fadeOutUp);
+.mobile-nav-show {
+  display: block;
+  box-sizing: border-box;
+  animation: 0.2s fadeInDown forwards;
+
+  a {
+    display: block;
+    @include calc(width, 90%, '100% - 45px');
+    margin: 10px !important;
+
+  }
+  background-color: color(brand, secondary);
+}
+
+.mobile-nav-hidden {
+  @include breakpoint(max-width breakpoint-value(md)) {
+    animation: 0.2s fadeOutUp forwards;
+    display: none;
+  }
+}
+
+.mobile-nav-toggle {
+  float: right;
+  background-color: color(brand, secondary);
+  color: color(greyscale, white);
+  border: 2px solid color(greyecale, white) {
+    radius: 4px;
+  };
+  padding: 7px 10px;
+
+  i {
+    &:before {
+      line-height: 0;
+    }
+  }
+
+  @include breakpoint(max-width breakpoint-value(md)) {
+
+  }
+}
+
+
+nav {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  @include shadow(rd, 3);
+
+  .btn {
+    margin: 0 5px;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: color(greyscale, white);
+    border: 2px solid darken(color(brand, secondary), 10%) {
+      radius: 8px;
+    };
+    font-weight: 700;
+    font-family: font-family(brand);
+
+    @include breakpoint(max-width breakpoint-value(lg)) {
+      padding: 10px;
+    }
+    @extend .transition;
+
+    &:hover {
+      background-color: darken(color(brand, secondary), 10%);
+    }
+
+    &:focus {
+      background-color: darken(color(brand, secondary), 15%);
+
+      @include transform(translateY(2px));
+    }
+  }
+
+  .cta {
+    color: darken(color(brand, secondary), 25%);
+    border: 2px solid lighten(color(brand, secondary), 10%) {
+      radius: 8px;
+    };
+    background-color: color(greyscale, white);
+
+    &:hover {
+      color: darken(color(brand, secondary), 0%);
+      background: rgba(color(greyscale, white), 0.9);
+    }
+  }
+}

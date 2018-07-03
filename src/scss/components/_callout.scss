@@ -1,0 +1,79 @@
+///
+// Callout Wrapper
+///
+
+.callout-wrapper {
+  position: relative;
+  z-index: 1;
+
+  .text-container {
+    width: 100%;
+    max-width: 700px;
+    border: {
+      top: 4px solid color(brand, info);
+      right: 4px solid color(brand, info);
+    };
+
+    @include breakpoint(md) {
+      float: right;
+      padding: 30px;
+    }
+  }
+
+  h2 {
+    width: 100%;
+    max-width: 700px;
+    text-transform: uppercase;
+    color: color(brand, info);
+
+    @include breakpoint(max-width breakpoint-value(md)) {
+      float: right;
+
+      @include font-size(22px);
+    }
+  }
+
+  h4,
+  h5,
+  h6 {
+    width: 100%;
+    max-width: 700px;
+    color: color(brand, info);
+    line-height: 1.5;
+
+    @include breakpoint(max-width breakpoint-value(md)) {
+      @include font-size(18px);
+    }
+
+    strong {
+      text-shadow: 5px 7px 15px rgba(50, 50, 93, 0.2);
+      font-weight: 700;
+    }
+  }
+
+
+
+  a,
+  button {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 15px;
+
+    @extend .text-center,
+    .pull-right;
+  }
+}
+
+.icon-image {
+  display: block;
+  max-width: 50px;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.cta-4 {
+  margin-top: 40px;
+  border: 0;
+}

@@ -1,0 +1,61 @@
+@import 'home';
+@import 'process';
+@import 'about';
+@import 'research';
+@import 'start';
+
+@include create-keyframe(fadeInUp);
+
+.main-content {
+  > div {
+    &:first-child {
+      animation: fadeInUp 0.75s forwards ease-in-out;
+    }
+  }
+}
+
+.content-wrapper {
+  padding: 0;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  @include breakpoint(md) {
+    padding: 30px 0;
+  }
+}
+
+.page-intro {
+  padding: 25px 25px;
+  box-sizing: border-box;
+  background-color: color(brand, secondary);
+
+  h1 {
+    font-weight: 600;
+    @include breakpoint(max-width breakpoint-value(md)) {
+      line-height: 1.4;
+      @include font-size(32px);
+    }
+  }
+
+  p {
+    font-weight: 300;
+
+    @include font-size(16px);
+
+    @include breakpoint(md) {
+      @include font-size(18px);
+    }
+  }
+}
+
+.started-wrapper {
+  .page-intro {
+    color: color(greyscale, white);
+    padding: 30px 15px 15px;
+    text-align: center;
+  }
+
+  // .form {
+  //   @extend .container;
+  // }
+}

@@ -1,0 +1,139 @@
+///
+// Forms
+///
+
+.signup-input-wrapper {
+  text-align: center;
+
+  .signup-input {
+    max-width: 400px;
+  }
+
+  input {
+    max-width: 300px;
+  }
+
+  button {
+    @extend .btn-cta,
+    .mar-20-top;
+  }
+}
+
+input:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+
+.signup-input-wrapper,
+.bid-input-wrapper {
+  border: {
+    bottom: 2px solid color(greyscale, black);
+  }
+
+  .signup-input-label {
+    display: block;
+    font-weight: 400;
+
+    //@include font-size(24px);
+    @extend .text-upper,
+    .mar-10-bottom;
+  }
+
+  .bid-input-label {
+    display: block;
+    color: color(brand, info);
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 15px 0 5px;
+
+    @include font-size(16px);
+  }
+
+  .bid-input,
+  input {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    border: 1px solid rgba(color(brand, info), 0.5) {
+      radius: 4px;
+    };
+    @include font-size(14px);
+
+    @extend .clear-button,
+    .transition;
+
+    &:focus {
+      border: 1px solid color(brand, primary) {
+        radius: 4px;
+      }
+      background-color: rgba(color(brand, primary), 0.03);
+      @include box-shadow(4px 0px 15px rgba(color(brand, primary), 0.3));
+    }
+  }
+
+  .btn-submit {
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+    color: color(brand, info);
+    border-radius: 4px;
+    border: 0;
+    background-color: color(brand, success);
+    font-weight: 600;
+  }
+}
+
+.bg-primary {
+  background: color(brand, primary);
+}
+
+@include create-keyframe(slideInDown);
+
+.modal {
+  position: fixed;
+  top: 0;
+  overflow: scroll;
+  width: 100%;
+  height: 110vh;
+  background-color: color(brand, support);
+}
+
+.modal-close {
+  position: absolute;
+  z-index: 1000;
+  top: 15px;
+  right: 15px;
+  text-decoration: underline;
+  font-weight: 600;
+
+  @include font-size(24px);
+}
+
+.toggle-wrapper-open {
+  & +.container {
+    display: none;
+  }
+}
+
+.btn-signup {
+  margin: 15px;
+  color: color(greyscale, black);
+  border: 2px solid color(greyscale, black) {
+    radius: 4px;
+  };
+  background: color(greyscale, white);
+}
+
+.email {
+  padding: 15px !important;
+}
+
+.btn-cta,
+.btn-signup {
+  padding: 15px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  font-weight: 600;
+}

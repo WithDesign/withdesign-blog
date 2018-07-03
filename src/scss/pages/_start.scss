@@ -1,0 +1,97 @@
+.started-wrapper {
+  .brief-header {
+    display: none;
+  }
+
+  .bid-input-wrapper {
+    border-bottom: 0;
+    padding-bottom: 0 !important;
+  }
+
+  .mega-image {
+    max-width: 100px;
+    position: absolute;
+    left: 0;
+    top: -125px;
+    @include transform(rotate(90deg));
+
+    &:first-child {
+      right: 0;
+      left: initial;
+      transform: scaleX(-1) rotate(90deg);
+    }
+
+    & + h2 {
+      margin-top: 125px;
+      color: color(brand, secondary);
+
+      & + h6 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: color(brand, secondary);
+      }
+    }
+  }
+}
+
+.start-image {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.started-content {
+  margin: 0 auto;
+  max-width: 650px;
+  min-height: 625px;
+  padding: 0 25px;
+  box-sizing: border-box;
+  position: relative;
+
+  @include breakpoint(max-width breakpoint-value(md)) {
+    min-height: 200px;
+  }
+}
+
+.start-value-prop {
+  background-color: rgba(color(brand, secondary), 0.075);
+}
+
+.start-client {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  @include breakpoint(max-width breakpoint-value(md)) {
+    display: none;
+  }
+
+  .client-brands {
+    background-color: rgba(color(brand, secondary), 0.2);
+  }
+}
+
+.started-form-wrapper {
+  max-width: 650px;
+  padding: 0 25px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  // @include breakpoint(md) {
+  //   border-left: 4px solid darken(color(brand, primary), 10%);
+  // }
+
+  .bid-input-label,
+  .bid-input {
+    @include font-size(16px)
+  }
+
+  .bid-input {
+    padding: 10px 15px;
+    border: 1px solid rgba(color(brand, info), 0.5);
+  }
+
+  .bid-input-label {
+    font-weight: 400;
+    margin: 15px 0 10px;
+  }
+}

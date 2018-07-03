@@ -1,0 +1,57 @@
+///
+// About Page
+///
+
+.about-wrapper {
+  position: relative;
+  overflow: hidden;
+
+  .page-intro {
+    position: relative;
+    overflow: hidden;
+    // background: {
+    //   image: url('../img/city.jpg');
+    //   position: center;
+    //   size: cover;
+    // }
+
+    p,
+    h1 {
+      position: relative;
+      z-index: 1;
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      opacity: 0.4;
+      // z-index: 1;
+      mix-blend-mode: luminosity;
+    }
+  }
+
+  .mission-image {
+    position: absolute;
+
+    max-width: 355px;
+    margin: 0 auto;
+
+    &.pipe {
+      top: -1px;
+      position: relative;
+      opacity: .2;
+      max-width: 250px;
+      animation: Move3 5s infinite;
+      transform-origin: top;
+    }
+
+    &.first {
+      top: -1px;
+      @include transform(rotate(180deg));
+    }
+
+    &.last {
+      bottom: -1px;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+///
+// Footer
+///
+
+footer {
+  padding: 25px 0;
+  border-top: 4px solid color(brand, secondary);
+  background-color: rgba(color(brand, info), 1) ; //rgba(color(greyscale, black), 1);
+
+  h6 {
+    margin: 7px 0 5px 10px;
+    color: color(greyscale, white);
+  }
+
+  a {
+    font-family: font-family(brand);
+  }
+
+  .business {
+    a {
+      margin: 10px 10px;
+      text-decoration: none;
+    }
+  }
+
+  .social {
+    a {
+      margin: 10px 10px;
+    }
+  }
+
+  .btn {
+    float: left;
+    margin-top: 20px;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: color(brand, secondary);
+    border: 1px solid color(brand, secondary) {
+      radius: 8px;
+    };
+    background-color: color(greyscale, white) ;
+    font-weight: 700;
+    font-family: font-family(brand);
+
+    @include font-size(14px);
+  }
+
+  .logo-wrapper {
+    a {
+      display: block;
+    }
+
+    img {
+      max-width: 150px;
+    }
+  }
+}

@@ -1,0 +1,424 @@
+
+.home {
+  .partner-wrapper {
+    h2,
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      color: color(brand, info);
+
+      & +p {
+        text-align: center;
+        color: color(brand, info);
+        font-weight: 300;
+
+        @include font-size(20px);
+      }
+    }
+  }
+}
+
+%text-shadow {
+  @include shadow((
+    type: light,
+    level: 1,
+    text: text,
+  )...);
+}
+
+@mixin text-shadow-3 {
+  @include shadow((
+    type: light,
+    level: 4,
+    text: text,
+  )...);
+}
+
+@include create-keyframe(fadeIn);
+@include create-keyframe(fadeOut);
+
+.btn-cta-1 {
+  display: inline-block;
+  padding: 15px 20px;
+  text-align: center;
+  background-color: #2470D3;
+  color: color(greyscale, white);
+  font-weight: 600;
+  border-radius: 4px;
+  outline: 0;
+  border: 0;
+
+  &:hover {
+    background-color: darken(#2470D3, 15%);
+    color: color(greyscale, white);
+    @include transform(translateY(3px));
+  }
+}
+
+.btn-cta-2 {
+  background: transparent;
+  color: color(brand, info);
+  border: 4px solid color(brand, info) {
+    radius: 4px;
+  }
+  text-decoration: none;
+  font-weight: 600;
+
+  @include shadow(5px 5px rgba(color(brand,primary), 0.1));
+  @extend .transition;
+  &:hover {
+    @include shadow(5px 5px rgba(color(brand,primary), 0.3));
+  }
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.btn-cta {
+  background: color(greyscale, white);
+  color: color(greyscale, black);
+  border: 4px solid color(brand, secondary) {
+    radius: 4px;
+  }
+
+  @include shadow(5px 5px rgba(color(brand,secondary), 0.1));
+  @extend .transition;
+  &:hover {
+    @include box-shadow(1px 1px rgba(color(brand, secondary), 0.3));
+  }
+}
+
+// Home - Process
+.process-intro {
+  padding-top: 50px;
+
+  img {
+    display: inline-block;
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 10px;
+  }
+
+  h2 {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 40px;
+    @include font-size(28px);
+
+    span {
+      position: absolute;
+      left: -10px;
+      font-weight: 700;
+      top: 20px;
+      z-index: -1;
+      opacity: 0.1;
+      color: color(brand, secondary);
+      @include font-size(150px);
+    }
+  }
+
+  p {
+    margin-top: 0;
+    padding-left: 20px;
+    font-weight: 300;
+    @include font-size(15px);
+  }
+}
+
+// Home - Contnet above cases
+
+.expertise {
+  padding: 75px 0;
+  background-color: rgba(color(brand, secondary), 0.1);
+  position: relative;
+
+  h2 {
+    text-transform: uppercase;
+    margin: 0;
+    color: color(brand, secondary);
+
+    & + p {
+      color: color(brand, secondary);
+    }
+  }
+
+  h4 {
+    color: color(brand, info);
+    margin-top: 4px;
+    @extend .h6;
+
+    & + span {
+      display: block;
+      margin-bottom: 35px;
+      @include font-size(13px);
+      color: color(brand, info);
+    }
+  }
+}
+
+// Home - Client review
+
+.client-wrapper {
+  padding: 100px 0;
+  position: relative;
+
+  @include breakpoint(max-width breakpoint-value(md)) {
+    padding: 50px 0;
+  }
+
+  .btn-cta-1 {
+    @include font-size(20px);
+  }
+
+  .company-image {
+    max-width: 30px;
+  }
+
+  h3 {
+    @extend .h2;
+    color: color(brand, info);
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 100px;
+    @include font-size(80px);
+
+    @include breakpoint(max-width breakpoint-value(md)) {
+      line-height: 1.4;
+      @include font-size(40px);
+    }
+
+    & + p {
+      position: relative;
+      z-index: 1;
+      font-weight: 300;
+      line-height: 35px;
+      color: color(brand, info);
+      @include font-size(20px);
+
+      @include breakpoint(max-width breakpoint-value(md)) {
+        padding: 0 15px;
+        line-height: 1.7;
+        @include font-size(18px);
+      }
+    }
+  }
+}
+
+@include keyframes(Move3) {
+  0% {
+    @include transform(scale3d(1, 1, 1));
+  }
+  50% {
+    @include transform(scale3d(1.1, 1.2, 1));
+  }
+  100% {
+    @include transform(scale3d(1, 1, 1));
+  }
+}
+
+img.funnel {
+  position: absolute;
+  width: 300px;
+  z-index: -1;
+  opacity: 0.1;
+  top: 0;
+  animation: Move3 5s infinite;
+  transform-origin: top;
+
+  &.right {
+    right: 0;
+    @include breakpoint(max-width breakpoint-value(md)) {
+      display: none;
+    }
+  }
+
+  &.left {
+    left: 0;
+  }
+}
+
+.cta-bar {
+  margin-bottom: 25px;
+
+  button {
+    border: 0 {
+      radius: 4px;
+    }
+    text-transform: uppercase;
+    text-decoration: underline;
+    background-color: transparent; //rgba(color(brand, secondary), 0.9);
+    color: color(brand, info);
+    font-weight: 600;
+    @include font-size(18px);
+
+    &:hover {
+      color: rgba(color(brand, info), 0.8);
+      @include transform(translateY(2px));
+      @extend .transition;
+    }
+  }
+}
+
+// Home Client Brand Logo Bar
+
+.client-brands {
+  padding: 40px 0;
+  margin-bottom: 50px;
+  background-color: rgba(color(brand, secondary), 0.2);
+
+  .logo-wrapper {
+    @extend .container;
+    margin: 0 auto;
+    width: 100%;
+    @extend .row;
+
+    img {
+      max-width: 75px;
+      margin: 0 auto;
+      opacity: 0.4;
+    }
+
+    div {
+      text-align: center;
+      @extend .col-xs-4, .col-md;
+    }
+  }
+}
+
+// Home - Who is servcie for
+
+.who-for {
+  padding: 100px 0 150px;
+  position: relative;
+  text-align: center;
+
+  @include breakpoint(max-width breakpoint-value(md)) {
+    padding: 25px 20px 50px;
+  }
+
+  h2 {
+    color: color(brand, info);
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 100px;
+    @include font-size(80px);
+
+    @include breakpoint(max-width breakpoint-value(md)) {
+      line-height: 1.4;
+      @include font-size(40px);
+    }
+  }
+
+  p {
+    position: relative;
+    z-index: 1;
+    //padding-top: 80px;
+    font-weight: 300;
+    line-height: 35px;
+    color: color(brand, info);
+    @include font-size(20px);
+    //@extend .col-xs-8;
+  }
+
+  img {
+    pointer-events: none;
+  }
+
+  @include keyframes(Move1) {
+    0% {
+      @include transform(translate3d(5px, 0, 0));
+    }
+    50% {
+      @include transform(translate3d(0, 6px, 0));
+    }
+    100% {
+      @include transform(translate3d(5px, 0, 0));
+
+    }
+  }
+
+  @include keyframes(Move2) {
+    0% {
+      @include transform(translate3d(0, 6px, 0));
+    }
+    50% {
+      @include transform(translate3d(8px, 0, 0));
+    }
+    100% {
+      @include transform(translate3d(0, 6px, 0));
+
+    }
+  }
+
+  .phone {
+    max-width: 300px;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    opacity: 0.2;
+  }
+
+  .thumbs {
+    left: 1%;
+    bottom: 75px;
+    animation: Move1 2s infinite;
+  }
+
+  .world {
+    right: 40%;
+    bottom: 30px;
+    animation: Move1 3s infinite;
+
+    @include breakpoint(max-width breakpoint-value(md)) {
+      display: none;
+    }
+  }
+
+  .box {
+    right: 26%;
+    top: 175px;
+    animation: Move2 2.5s infinite;
+
+    @include breakpoint(max-width breakpoint-value(md)) {
+      display: none;
+    }
+  }
+
+  .money {
+    left: 10%;
+    top: 100px;
+    animation: Move1 2.5s infinite;
+  }
+
+  .credit {
+    left: 30%;
+    bottom: 110px;
+    animation: Move2 3s infinite;
+    @include breakpoint(max-width breakpoint-value(md)) {
+      left: 70%;
+      top: 10px;
+    }
+  }
+
+  .sm {
+    max-width: 75px;
+    position: absolute;
+    opacity: 0.2;
+  }
+}
+
+.cta-section {
+  padding-top: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+

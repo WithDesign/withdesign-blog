@@ -1,0 +1,146 @@
+///
+// Banner Styles
+///
+
+.btn-banner {
+  position: relative;
+  padding: 15px 25px;
+  color: color(greyscale, white);
+  border: { //4px solid darken(color(brand, success), 30%)
+    radius: 4px;
+  };
+  background: #2470D3;
+  font-weight: 600;
+  font-family: font-family(brand);
+  @include shadow(rd, 3);
+  @extend .clear-button,
+  .transition;
+  @include font-size(18px);
+
+  &:hover {
+    color: color(greyscale, white);
+    background-color: darken(#2470D3, 15%) !important;
+
+    @include transform(translateY(3px));
+  }
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 700px;
+  max-height: 900px;
+  padding: 20px;
+  background-color: color(brand, secondary);
+
+  //@include calc(height, 100vh, '100vh - 88px');
+  @include breakpoint(max-width breakpoint-value(lg)) {
+    @include font-size(24px);
+  }
+  @include keyframes(Banner1) {
+    0% {
+      @include transform(translate3d(0, 3px, 0));
+    }
+    50% {
+      @include transform(translate3d(0, -1px, 0));
+    }
+    100% {
+      @include transform(translate3d(0, 3px, 0));
+    }
+  }
+
+  img {
+    pointer-events: none;
+  }
+
+  .icon {
+    padding-top: 40px;
+    text-align: center;
+    opacity: 1;
+
+    i {
+      @include font-size(34px);
+    }
+  }
+
+  .logo {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .banner-bottom {
+    position: relative;
+    max-width: 700px;
+    margin: 15px auto 0;
+    // mix-blend-mode: luminosity;
+  }
+
+  h1 {
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+    opacity: 1;
+    color: lighten(color(greyscale, white), 10%);
+    font-weight: 700;
+    line-height: 1.5;
+
+    @include font-size(55px);
+    @include breakpoint(max-width breakpoint-value(lg)) {
+      @include font-size(30px);
+    }
+
+    a {
+      position: relative;
+      top: -35px;
+      padding: 0 5px;
+      animation: Banner1 2s infinite;
+      text-decoration: underline;
+      color: darken(color(brand, secondary), 40%) !important;
+      font-weight: 400;
+
+      @include font-size(24px);
+      @extend .transition;
+      @include breakpoint(max-width breakpoint-value(sm)) {
+        top: -5px;
+
+        &:hover {
+          top: 0 !important;
+        }
+      }
+
+      &:hover {
+        top: -30px;
+        animation: none;
+        color: darken(color(brand, secondary), 50%) !important;
+      }
+    }
+
+    span {
+      text-decoration: underline;
+    }
+  }
+
+  h2 {
+    max-width: 900px;
+    margin: 0 auto 25px;
+    color: color(greyscale, white);
+    line-height: 1.6;
+    font-weight: 300 !important;
+
+    @include font-size(16px);
+
+    @include breakpoint(md) {
+      font-weight: 600;
+      @include font-size(18px);
+    }
+  }
+
+  .wrapper {
+    max-width: 100%;
+  }
+}

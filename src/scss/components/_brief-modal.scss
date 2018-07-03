@@ -1,0 +1,235 @@
+
+.breif-modal-active {
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.brief-modal {
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  left: 0;
+  overflow-y: scroll;
+  width: 100%;
+  height: 100vh;
+  animation: fadeIn 0.35s ease-in-out forwards;
+  background: rgba(color(brand, info), 0.5);
+
+  .brief-header {
+    padding: 50px 20px;
+    text-align: center;
+    color: color(greyscale, white);
+    border: {
+      top-left-radius: 10px;
+      top-right-radius: 10px;
+    };
+    background-color: color(brand, secondary);
+  }
+
+  .sub-text {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+
+    @include font-size(16px);
+  }
+
+  p {
+    line-height: 1.6;
+    font-weight: 300;
+    @include font-size(18px);
+  }
+
+  .close-btn {
+    position: sticky;
+    z-index: 1000;
+    top: 15px;
+    float: left;
+    margin: 10px;
+    padding: 1px 5px;
+    cursor: pointer;
+    color: color(brand, info);
+    border: 4px solid color(brand, info) {
+      radius: 50%;
+    };
+    background: color(greyscale, white);
+    line-height: 1;
+
+    @include font-size(30px);
+    @include breakpoint(md) {
+      right: 10px;
+    }
+
+    &:hover {
+      color: darken(color(brand, secondary), 15%);
+    }
+  }
+
+  .wrapper {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    border: {
+      radius: 10px;
+    };
+    background: color(greyscale, white);
+
+    @include shadow(4, light);
+    @include breakpoint(md) {
+      margin: 25px auto;
+    }
+  }
+}
+
+.package {
+  @include breakpoint(max-width breakpoint-value(lg)) {
+    padding: 0 0 25px 0 !important;
+  }
+}
+
+.package-callout {
+  color: color(brand, info);
+
+  @include breakpoint(md) {
+    padding: 60px 0;
+  }
+
+  h2 {
+    margin-top: 0;
+    font-weight: 600;
+  }
+
+  p {
+    line-height: 1.4;
+
+    @include font-size(24px);
+  }
+
+  i {
+    color: color(brand, info);
+
+    @include font-size(45px);
+  }
+}
+
+.highlight-callout {
+  position: absolute;
+  top: -10px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: color(greyscale, white);
+  border: 4px solid darken(color(brand, secondary), 10%) {
+    radius: 10px;
+  };
+  background-color: color(brand, secondary);
+  font-weight: 700;
+
+  @include font-size(20px);
+  @include breakpoint(min-width breakpoint-value(lg)) {
+    @include calc(width, 100%, '100% - 30px');
+  }
+}
+
+.package-wrapper {
+  position: relative;
+  margin-top: 35px;
+  padding: 25px 20px;
+  color: color(brand, info);
+  border: 4px solid rgba(color(brand, info), 0.5);
+  border-radius: 10px;
+  background-color: lighten(color(brand, default), 44%);
+  line-height: 1.4;
+
+  @include shadow(1, light);
+
+  .price {
+    font-weight: 700;
+    line-height: 2;
+
+    @include font-size(20px);
+
+    .sale {
+      display: block;
+      text-decoration: line-through;
+      color: rgba(color(brand, secondary), 0.2);
+      line-height: 2;
+
+      @include font-size(14px);
+    }
+  }
+
+  a,
+  button {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    color: color(greyscale, white);
+    border: none {
+      radius: 10px;
+    };
+    background-color: color(brand, secondary);
+    font-weight: 600;
+
+    @extend .transition;
+
+    &:hover {
+      background-color: color(brand, primary);
+    }
+  }
+
+  &.highlight {
+    border: 4px solid color(brand, secondary);
+
+    @include shadow(3, light);
+    @extend .bg-white;
+
+    i {
+      color: color(brand, secondary);
+    }
+  }
+
+  h5 {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  p {
+    ul {
+      margin: 0 0 15px;
+      padding: 0;
+
+      li {
+        padding: 25px 0;
+        list-style-type: none;
+        border-bottom: 1px solid rgba(color(brand, info), 0.1);
+        font-weight: 400;
+
+        @include font-size(18px);
+
+        &:first-child {
+          border-top: 1px solid rgba(color(brand, info), 0.1);
+        }
+      }
+    }
+  }
+}
+
+.case-modal {
+  .case-banner-img {
+    position: relative;
+    top: -61px;
+    border: {
+      top-left-radius: 10px;
+      top-right-radius: 10px;
+    }
+  }
+}

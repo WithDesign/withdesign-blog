@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d6188fc1f70669bc702bc17366912467",
+        "contentDigest": "2759835c861326ecc7e62d220864890e",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -1834,6 +1834,10 @@
             "version": "^1.9.250"
           },
           {
+            "name": "gatsby-image",
+            "version": "^1.0.54"
+          },
+          {
             "name": "gatsby-link",
             "version": "^1.6.39"
           },
@@ -2113,12 +2117,12 @@
       "host": "localhost",
       "pathPrefix": "/gatsby-starter-blog",
       "polyfill": true,
-      "buildTime": "2018-07-03T15:57:11.937Z",
+      "buildTime": "2018-07-04T06:28:40.459Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "998e3d9e8c56254e5015c8076f331126",
+        "contentDigest": "467d299fd98282d06ddad2e9ecff8c6c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -2128,7 +2132,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e5232e6b47aded786c45230e0f18caab",
+        "contentDigest": "373a4b2600cc31a3dac127a9e770513b",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -2137,11 +2141,11 @@
       "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages",
       "relativePath": "",
       "extension": "",
-      "size": 170,
-      "prettySize": "170 B",
-      "modifiedTime": "2018-07-02T22:22:16.000Z",
-      "accessTime": "2018-07-03T15:57:14.000Z",
-      "changeTime": "2018-07-02T22:22:16.000Z",
+      "size": 238,
+      "prettySize": "238 B",
+      "modifiedTime": "2018-07-04T04:59:23.000Z",
+      "accessTime": "2018-07-04T06:28:44.000Z",
+      "changeTime": "2018-07-04T04:59:23.000Z",
       "birthTime": "2018-07-02T02:22:01.000Z",
       "root": "/",
       "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src",
@@ -2151,16 +2155,16 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 5,
+      "nlink": 7,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 31034518,
       "blocks": 0,
-      "atime": "2018-07-03T15:57:14.000Z",
-      "mtime": "2018-07-02T22:22:16.000Z",
-      "ctime": "2018-07-02T22:22:16.000Z",
+      "atime": "2018-07-04T06:28:44.000Z",
+      "mtime": "2018-07-04T04:59:23.000Z",
+      "ctime": "2018-07-04T04:59:23.000Z",
       "birthtime": "2018-07-02T02:22:01.000Z"
     },
     "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world absPath of file": {
@@ -2168,7 +2172,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5124e0828ce88e8330ae8dd8f3d62c37",
+        "contentDigest": "eafc772f2e3744bd67b5fbf96998e0d4",
         "type": "Directory",
         "description": "Directory \"src/pages/hello-world\"",
         "owner": "gatsby-source-filesystem"
@@ -2180,7 +2184,7 @@
       "size": 136,
       "prettySize": "136 B",
       "modifiedTime": "2018-07-02T02:22:01.000Z",
-      "accessTime": "2018-07-03T15:57:14.000Z",
+      "accessTime": "2018-07-04T06:28:44.000Z",
       "changeTime": "2018-07-02T02:22:01.000Z",
       "birthTime": "2018-07-02T02:22:01.000Z",
       "root": "/",
@@ -2198,50 +2202,9 @@
       "blksize": 4096,
       "ino": 31034520,
       "blocks": 0,
-      "atime": "2018-07-03T15:57:14.000Z",
+      "atime": "2018-07-04T06:28:44.000Z",
       "mtime": "2018-07-02T02:22:01.000Z",
       "ctime": "2018-07-02T02:22:01.000Z",
-      "birthtime": "2018-07-02T02:22:01.000Z"
-    },
-    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/index.js absPath of file": {
-      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/index.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "509b3cdc6c7349f3a184cde037003e50",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "description": "File \"src/pages/index.js\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "pages",
-      "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/index.js",
-      "relativePath": "index.js",
-      "extension": "js",
-      "size": 1384,
-      "prettySize": "1.38 kB",
-      "modifiedTime": "2018-07-02T22:32:01.000Z",
-      "accessTime": "2018-07-03T05:17:11.000Z",
-      "changeTime": "2018-07-02T22:32:01.000Z",
-      "birthTime": "2018-07-02T02:22:01.000Z",
-      "root": "/",
-      "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 31034525,
-      "blocks": 8,
-      "atime": "2018-07-03T05:17:11.000Z",
-      "mtime": "2018-07-02T22:32:01.000Z",
-      "ctime": "2018-07-02T22:32:01.000Z",
       "birthtime": "2018-07-02T02:22:01.000Z"
     },
     "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/404.js absPath of file": {
@@ -2249,7 +2212,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "8d50d9a7e3f04ddcc5ff8d43b6effe79",
+        "contentDigest": "961e751fe3414e8ffadeeaa84056ef5e",
         "mediaType": "application/javascript",
         "type": "File",
         "description": "File \"src/pages/404.js\"",
@@ -2259,11 +2222,11 @@
       "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/404.js",
       "relativePath": "404.js",
       "extension": "js",
-      "size": 198,
-      "prettySize": "198 B",
-      "modifiedTime": "2018-07-02T22:32:03.000Z",
-      "accessTime": "2018-07-03T05:17:11.000Z",
-      "changeTime": "2018-07-02T22:32:03.000Z",
+      "size": 344,
+      "prettySize": "344 B",
+      "modifiedTime": "2018-07-04T03:08:58.000Z",
+      "accessTime": "2018-07-04T03:08:58.000Z",
+      "changeTime": "2018-07-04T03:08:58.000Z",
       "birthTime": "2018-07-02T02:22:01.000Z",
       "root": "/",
       "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages",
@@ -2280,9 +2243,50 @@
       "blksize": 4096,
       "ino": 31034519,
       "blocks": 8,
-      "atime": "2018-07-03T05:17:11.000Z",
-      "mtime": "2018-07-02T22:32:03.000Z",
-      "ctime": "2018-07-02T22:32:03.000Z",
+      "atime": "2018-07-04T03:08:58.000Z",
+      "mtime": "2018-07-04T03:08:58.000Z",
+      "ctime": "2018-07-04T03:08:58.000Z",
+      "birthtime": "2018-07-02T02:22:01.000Z"
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/index.js absPath of file": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "c5a9838e4d31cedd9a9dcfa00b6c93ae",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "description": "File \"src/pages/index.js\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/index.js",
+      "relativePath": "index.js",
+      "extension": "js",
+      "size": 2175,
+      "prettySize": "2.17 kB",
+      "modifiedTime": "2018-07-04T06:27:45.000Z",
+      "accessTime": "2018-07-04T06:27:45.000Z",
+      "changeTime": "2018-07-04T06:27:45.000Z",
+      "birthTime": "2018-07-02T02:22:01.000Z",
+      "root": "/",
+      "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 31034525,
+      "blocks": 8,
+      "atime": "2018-07-04T06:27:45.000Z",
+      "mtime": "2018-07-04T06:27:45.000Z",
+      "ctime": "2018-07-04T06:27:45.000Z",
       "birthtime": "2018-07-02T02:22:01.000Z"
     },
     "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file": {
@@ -2292,7 +2296,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "fff7f0d7c30765948b17e558b3526867",
+        "contentDigest": "a3346bd821b872d927e703fa5b5dd028",
         "mediaType": "text/markdown",
         "type": "File",
         "description": "File \"src/pages/hello-world/index.md\"",
@@ -2302,11 +2306,11 @@
       "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md",
       "relativePath": "hello-world/index.md",
       "extension": "md",
-      "size": 886,
-      "prettySize": "886 B",
-      "modifiedTime": "2018-07-02T22:30:10.000Z",
-      "accessTime": "2018-07-03T05:17:06.000Z",
-      "changeTime": "2018-07-02T22:30:10.000Z",
+      "size": 947,
+      "prettySize": "947 B",
+      "modifiedTime": "2018-07-04T06:27:27.000Z",
+      "accessTime": "2018-07-04T06:27:27.000Z",
+      "changeTime": "2018-07-04T06:27:27.000Z",
       "birthTime": "2018-07-02T02:22:01.000Z",
       "root": "/",
       "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world",
@@ -2323,37 +2327,10 @@
       "blksize": 4096,
       "ino": 31034521,
       "blocks": 8,
-      "atime": "2018-07-03T05:17:06.000Z",
-      "mtime": "2018-07-02T22:30:10.000Z",
-      "ctime": "2018-07-02T22:30:10.000Z",
+      "atime": "2018-07-04T06:27:27.000Z",
+      "mtime": "2018-07-04T06:27:27.000Z",
+      "ctime": "2018-07-04T06:27:27.000Z",
       "birthtime": "2018-07-02T02:22:01.000Z"
-    },
-    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: Hello World\nurl: 'https://withdesign.ca'\ndate: \"2015-05-01T22:12:03.284Z\"\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "eea0a503654c369046d2df06adad352b",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Hello World",
-        "url": "https://withdesign.ca",
-        "date": "2015-05-01T22:12:03.284Z",
-        "_PARENT": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file",
-        "parent": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file"
-      },
-      "excerpt": "",
-      "rawMarkdownBody": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
-      "fileAbsolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md",
-      "fields": {
-        "slug": "/hello-world/"
-      }
     },
     "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/salty_egg.jpg absPath of file": {
       "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/salty_egg.jpg absPath of file",
@@ -2375,7 +2352,7 @@
       "size": 684322,
       "prettySize": "684 kB",
       "modifiedTime": "2018-07-02T02:22:01.000Z",
-      "accessTime": "2018-07-03T05:17:07.000Z",
+      "accessTime": "2018-07-04T02:47:11.000Z",
       "changeTime": "2018-07-02T02:22:01.000Z",
       "birthTime": "2018-07-02T02:22:01.000Z",
       "root": "/",
@@ -2393,7 +2370,7 @@
       "blksize": 4096,
       "ino": 31034522,
       "blocks": 1344,
-      "atime": "2018-07-03T05:17:07.000Z",
+      "atime": "2018-07-04T02:47:11.000Z",
       "mtime": "2018-07-02T02:22:01.000Z",
       "ctime": "2018-07-02T02:22:01.000Z",
       "birthtime": "2018-07-02T02:22:01.000Z"
@@ -2408,6 +2385,377 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2 absPath of file": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7edb9b4d9e028b3eb88b27e0eb9ea908",
+        "type": "Directory",
+        "description": "Directory \"src/pages/hello-world-2\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2",
+      "relativePath": "hello-world-2",
+      "extension": "",
+      "size": 136,
+      "prettySize": "136 B",
+      "modifiedTime": "2018-07-04T04:59:00.000Z",
+      "accessTime": "2018-07-04T06:28:44.000Z",
+      "changeTime": "2018-07-04T04:59:00.000Z",
+      "birthTime": "2018-07-04T04:59:00.000Z",
+      "root": "/",
+      "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages",
+      "base": "hello-world-2",
+      "ext": "",
+      "name": "hello-world-2",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 31173576,
+      "blocks": 0,
+      "atime": "2018-07-04T06:28:44.000Z",
+      "mtime": "2018-07-04T04:59:00.000Z",
+      "ctime": "2018-07-04T04:59:00.000Z",
+      "birthtime": "2018-07-04T04:59:00.000Z"
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md absPath of file": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md absPath of file",
+      "children": [
+        "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a3346bd821b872d927e703fa5b5dd028",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/hello-world-2/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md",
+      "relativePath": "hello-world-2/index.md",
+      "extension": "md",
+      "size": 947,
+      "prettySize": "947 B",
+      "modifiedTime": "2018-07-04T06:27:32.000Z",
+      "accessTime": "2018-07-04T06:27:32.000Z",
+      "changeTime": "2018-07-04T06:27:32.000Z",
+      "birthTime": "2018-07-04T04:59:00.000Z",
+      "root": "/",
+      "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hello-world-2",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 31173577,
+      "blocks": 8,
+      "atime": "2018-07-04T06:27:32.000Z",
+      "mtime": "2018-07-04T06:27:32.000Z",
+      "ctime": "2018-07-04T06:27:32.000Z",
+      "birthtime": "2018-07-04T04:59:00.000Z"
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/salty_egg.jpg absPath of file": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/salty_egg.jpg absPath of file",
+      "children": [
+        "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/salty_egg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/pages/hello-world-2/salty_egg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/salty_egg.jpg",
+      "relativePath": "hello-world-2/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2018-07-04T04:59:00.000Z",
+      "accessTime": "2018-07-04T04:59:00.000Z",
+      "changeTime": "2018-07-04T04:59:00.000Z",
+      "birthTime": "2018-07-04T04:59:00.000Z",
+      "root": "/",
+      "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "hello-world-2",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 31173578,
+      "blocks": 1344,
+      "atime": "2018-07-04T04:59:00.000Z",
+      "mtime": "2018-07-04T04:59:00.000Z",
+      "ctime": "2018-07-04T04:59:00.000Z",
+      "birthtime": "2018-07-04T04:59:00.000Z"
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/salty_egg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/salty_egg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/salty_egg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3 absPath of file": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3 absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1e8961851669fd4e974d4c971f3b5491",
+        "type": "Directory",
+        "description": "Directory \"src/pages/hello-world-3\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3",
+      "relativePath": "hello-world-3",
+      "extension": "",
+      "size": 136,
+      "prettySize": "136 B",
+      "modifiedTime": "2018-07-04T04:59:23.000Z",
+      "accessTime": "2018-07-04T06:28:44.000Z",
+      "changeTime": "2018-07-04T04:59:23.000Z",
+      "birthTime": "2018-07-04T04:59:23.000Z",
+      "root": "/",
+      "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages",
+      "base": "hello-world-3",
+      "ext": "",
+      "name": "hello-world-3",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 31173616,
+      "blocks": 0,
+      "atime": "2018-07-04T06:28:44.000Z",
+      "mtime": "2018-07-04T04:59:23.000Z",
+      "ctime": "2018-07-04T04:59:23.000Z",
+      "birthtime": "2018-07-04T04:59:23.000Z"
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md absPath of file": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md absPath of file",
+      "children": [
+        "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a3346bd821b872d927e703fa5b5dd028",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/pages/hello-world-3/index.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md",
+      "relativePath": "hello-world-3/index.md",
+      "extension": "md",
+      "size": 947,
+      "prettySize": "947 B",
+      "modifiedTime": "2018-07-04T06:27:37.000Z",
+      "accessTime": "2018-07-04T06:27:37.000Z",
+      "changeTime": "2018-07-04T06:27:37.000Z",
+      "birthTime": "2018-07-04T04:59:23.000Z",
+      "root": "/",
+      "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3",
+      "base": "index.md",
+      "ext": ".md",
+      "name": "index",
+      "relativeDirectory": "hello-world-3",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 31173617,
+      "blocks": 8,
+      "atime": "2018-07-04T06:27:37.000Z",
+      "mtime": "2018-07-04T06:27:37.000Z",
+      "ctime": "2018-07-04T06:27:37.000Z",
+      "birthtime": "2018-07-04T04:59:23.000Z"
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/salty_egg.jpg absPath of file": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/salty_egg.jpg absPath of file",
+      "children": [
+        "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/salty_egg.jpg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/pages/hello-world-3/salty_egg.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "pages",
+      "absolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/salty_egg.jpg",
+      "relativePath": "hello-world-3/salty_egg.jpg",
+      "extension": "jpg",
+      "size": 684322,
+      "prettySize": "684 kB",
+      "modifiedTime": "2018-07-04T04:59:23.000Z",
+      "accessTime": "2018-07-04T04:59:23.000Z",
+      "changeTime": "2018-07-04T04:59:23.000Z",
+      "birthTime": "2018-07-04T04:59:23.000Z",
+      "root": "/",
+      "dir": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3",
+      "base": "salty_egg.jpg",
+      "ext": ".jpg",
+      "name": "salty_egg",
+      "relativeDirectory": "hello-world-3",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 31173618,
+      "blocks": 1344,
+      "atime": "2018-07-04T04:59:23.000Z",
+      "mtime": "2018-07-04T04:59:23.000Z",
+      "ctime": "2018-07-04T04:59:23.000Z",
+      "birthtime": "2018-07-04T04:59:23.000Z"
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/salty_egg.jpg absPath of file >> ImageSharp": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/salty_egg.jpg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/salty_egg.jpg absPath of file",
+      "internal": {
+        "contentDigest": "8058f3f26913fea3b6a89a73344fe94a",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Hello World\nfeaturedImage: './salty_egg.jpg'\ndate: \"2015-05-01T22:12:03.284Z\"\ntags: [\"animals\", \"Chicago\", \"zoos\"]\nauthor: Cody Reeves\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "3fc77e08a47829968b6e8e9f45039727",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "featuredImage": "./salty_egg.jpg",
+        "date": "2015-05-01T22:12:03.284Z",
+        "tags": [
+          "animals",
+          "Chicago",
+          "zoos"
+        ],
+        "author": "Cody Reeves",
+        "_PARENT": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file",
+        "parent": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+      "fileAbsolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md",
+      "fields": {
+        "slug": "/hello-world/"
+      }
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Hello World\nfeaturedImage: './salty_egg.jpg'\ndate: \"2015-05-01T22:12:03.284Z\"\ntags: [\"animals\", \"Chicago\", \"zoos\"]\nauthor: Cody Reeves\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "dd48acd0276228fd6f76f112829d2a61",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "featuredImage": "./salty_egg.jpg",
+        "date": "2015-05-01T22:12:03.284Z",
+        "tags": [
+          "animals",
+          "Chicago",
+          "zoos"
+        ],
+        "author": "Cody Reeves",
+        "_PARENT": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md absPath of file",
+        "parent": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+      "fileAbsolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md",
+      "fields": {
+        "slug": "/hello-world-2/"
+      }
+    },
+    "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: Hello World\nfeaturedImage: './salty_egg.jpg'\ndate: \"2015-05-01T22:12:03.284Z\"\ntags: [\"animals\", \"Chicago\", \"zoos\"]\nauthor: Cody Reeves\n---\n\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "ad2ee761f69327649be3604445b15103",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Hello World",
+        "featuredImage": "./salty_egg.jpg",
+        "date": "2015-05-01T22:12:03.284Z",
+        "tags": [
+          "animals",
+          "Chicago",
+          "zoos"
+        ],
+        "author": "Cody Reeves",
+        "_PARENT": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md absPath of file",
+        "parent": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md absPath of file"
+      },
+      "excerpt": "",
+      "rawMarkdownBody": "\nThis is my first post on my new fake blog! How exciting!\n\nI'm sure I'll write a lot more interesting things in the future.\n\nOh, and here's a great quote from this Wikipedia on\n[salted duck eggs](http://en.wikipedia.org/wiki/Salted_duck_egg).\n\n> A salted duck egg is a Chinese preserved food product made by soaking duck\n> eggs in brine, or packing each egg in damp, salted charcoal. In Asian\n> supermarkets, these eggs are sometimes sold covered in a thick layer of salted\n> charcoal paste. The eggs may also be sold with the salted paste removed,\n> wrapped in plastic, and vacuum packed. From the salt curing process, the\n> salted duck eggs have a briny aroma, a gelatin-like egg white and a\n> firm-textured, round yolk that is bright orange-red in color.\n\n![Chinese Salty Egg](./salty_egg.jpg)\n",
+      "fileAbsolutePath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md",
+      "fields": {
+        "slug": "/hello-world-3/"
+      }
+    },
     "SitePage /hello-world/": {
       "layout": "index",
       "jsonName": "hello-world.json",
@@ -2417,7 +2765,14 @@
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
         "slug": "/hello-world/",
-        "previous": null,
+        "previous": {
+          "fields": {
+            "slug": "/hello-world-2/"
+          },
+          "frontmatter": {
+            "title": "Hello World"
+          }
+        },
         "next": null
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
@@ -2428,7 +2783,78 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fcc3b060f38be8786a06f909a034a0f4",
+        "contentDigest": "d2ee7eb728347f6a30c5753c939df00e",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hello-world-2/": {
+      "layout": "index",
+      "jsonName": "hello-world-2.json",
+      "internalComponentName": "ComponentHelloWorld2",
+      "path": "/hello-world-2/",
+      "component": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/hello-world-2/",
+        "previous": {
+          "fields": {
+            "slug": "/hello-world-3/"
+          },
+          "frontmatter": {
+            "title": "Hello World"
+          }
+        },
+        "next": {
+          "fields": {
+            "slug": "/hello-world/"
+          },
+          "frontmatter": {
+            "title": "Hello World"
+          }
+        }
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/templates/blog-post.js",
+      "id": "SitePage /hello-world-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "b7bf85ef22649a7fd10c938b5e6e56ad",
+        "description": "Your site's \"gatsby-node.js\"",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /hello-world-3/": {
+      "layout": "index",
+      "jsonName": "hello-world-3.json",
+      "internalComponentName": "ComponentHelloWorld3",
+      "path": "/hello-world-3/",
+      "component": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/hello-world-3/",
+        "previous": null,
+        "next": {
+          "fields": {
+            "slug": "/hello-world-2/"
+          },
+          "frontmatter": {
+            "title": "Hello World"
+          }
+        }
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/templates/blog-post.js",
+      "id": "SitePage /hello-world-3/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c7098567c67d0119601edb5a9cb0f14e",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -2449,7 +2875,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "55567d271a61d4a369c6b76d381a15ce",
+        "contentDigest": "0f214c2918552214357f02196b923cfe",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2470,7 +2896,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c630902f81af6b13a4fe24045bd2e995",
+        "contentDigest": "ab5b47a73feb2edae0d115061cae5007",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2491,7 +2917,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9e38db01eea78af84b0164ff0cd5c817",
+        "contentDigest": "259fc13c7a3fbd5b484fdcdda8f9cfd2",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -2499,16 +2925,48 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "c3d4c2682b4335a928d62d8f13e99ab4"
+    "PLUGINS_HASH": "a616ac97d4577e27d0a4bcaf4247745c"
   },
   "componentDataDependencies": {
     "nodes": {
+      "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/salty_egg.jpg absPath of file": [
+        "/hello-world/",
+        "/"
+      ],
+      "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/salty_egg.jpg absPath of file >> ImageSharp": [
+        "/hello-world/",
+        "/"
+      ],
       "Site": [
         "/hello-world/",
+        "/hello-world-2/",
+        "/hello-world-3/",
         "/"
       ],
       "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world/index.md absPath of file >>> MarkdownRemark": [
         "/hello-world/"
+      ],
+      "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/salty_egg.jpg absPath of file": [
+        "/hello-world-2/",
+        "/"
+      ],
+      "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/salty_egg.jpg absPath of file >> ImageSharp": [
+        "/hello-world-2/",
+        "/"
+      ],
+      "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-2/index.md absPath of file >>> MarkdownRemark": [
+        "/hello-world-2/"
+      ],
+      "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/salty_egg.jpg absPath of file": [
+        "/hello-world-3/",
+        "/"
+      ],
+      "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/salty_egg.jpg absPath of file >> ImageSharp": [
+        "/hello-world-3/",
+        "/"
+      ],
+      "/Users/codyreeves/Documents/Personal/projects/withdesign-blog/src/pages/hello-world-3/index.md absPath of file >>> MarkdownRemark": [
+        "/hello-world-3/"
       ]
     },
     "connections": {

@@ -16,6 +16,8 @@ exports.components = {
 exports.json = {
   "layout-index.json": require("/Users/codyreeves/Documents/Personal/projects/withdesign-blog/.cache/json/layout-index.json"),
   "hello-world.json": require("/Users/codyreeves/Documents/Personal/projects/withdesign-blog/.cache/json/hello-world.json"),
+  "hello-world-2.json": require("/Users/codyreeves/Documents/Personal/projects/withdesign-blog/.cache/json/hello-world-2.json"),
+  "hello-world-3.json": require("/Users/codyreeves/Documents/Personal/projects/withdesign-blog/.cache/json/hello-world-3.json"),
   "dev-404-page.json": require("/Users/codyreeves/Documents/Personal/projects/withdesign-blog/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/codyreeves/Documents/Personal/projects/withdesign-blog/.cache/json/404.json"),
   "index.json": require("/Users/codyreeves/Documents/Personal/projects/withdesign-blog/.cache/json/index.json"),

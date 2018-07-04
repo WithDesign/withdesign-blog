@@ -26,12 +26,19 @@ class Header extends Component {
       activeMenu: !this.state.activeMenu,
     });
   }
+
 //
   render() {
     const { className } = this.props;
     const { activeMenu } = this.state;
     const isMobile = window.innerWidth <= 500;
     const isTab = window.innerWidth <= 992;
+
+    let rootPath = `/`
+    if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
+      rootPath = __PATH_PREFIX__ + `/`
+    }
+
     return (
       <header>
         <div className={`clearfix nav-wrapper ${className}`}>
@@ -51,6 +58,16 @@ class Header extends Component {
             <a className="btn pull-right" href="https://withdesign.ca/">Home</a>
           </nav>
         </div>
+        {(!isMobile || !isTab) &&
+          <div className="sub-menu">
+            <a className="pull-right" href="https://withdesign.ca/partners">Updates</a>
+            <a className="pull-right" href="https://withdesign.ca/research">Research</a>
+            <a className="pull-right" href="https://withdesign.ca/about">Inspiration</a>
+            <a className="pull-right" href="https://withdesign.ca/solutions">Popular</a>
+            <a className="pull-right active" href="/">{!(location.pathname === rootPath) && (
+            'Back to'
+            )} Feed</a>
+          </div>}
       </header>
     );
   }

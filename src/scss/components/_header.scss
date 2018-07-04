@@ -6,8 +6,38 @@
   display: inline;
 }
 
+.sub-menu {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 20px;
+  background-color: darken(color(brand, secondary), 10%);
+  @extend .clearfix;
+
+  a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    color: color(greyscale, 'white');
+    font-weight: 400;
+    border: {
+      top-left-radius: 5px;
+      top-right-radius: 5px;
+    }
+    font-family: font-family(brand);
+    @include font-size(14px);
+
+    &:hover {
+      background-color: darken(color(brand, secondary), 5%);
+    }
+
+    &.active {
+      background-color: darken(color(brand, secondary), 0%);
+    }
+  }
+}
+
 .nav-wrapper {
-  padding: 20px 25px 15px;
+  padding: 20px 25px 10px;
   border-bottom: 4px solid darken(color(brand, secondary), 10%);
   background-color: darken(color(brand, secondary), 5%);
 
@@ -18,16 +48,23 @@
   }
 
   img {
-    max-width: 200px;
+    max-width: 280px;
+
     @include breakpoint(max-width breakpoint-value(md)) {
+      max-width: 200px;
       padding-top: 5px;
     }
+  }
+
+  nav {
+    @extend .clearfix;
   }
 }
 
 .mobile-nav {
-  @extend .transition;
+  @extend .transition, .clearfix;
 }
+
 @include create-keyframe(fadeInDown);
 @include create-keyframe(fadeOutUp);
 .mobile-nav-show {

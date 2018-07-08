@@ -39,11 +39,30 @@ class BlogIndex extends React.Component {
         <PageHead
           title={siteTitle}
           description={''}
-          url="https://withdesign.ca/"
+          url="https://.ca/"
         />
-        <div className="container">
-          <h1 className="no-mar-bottom">{welcome}</h1>
+        <div className="banner pos-rel">
+          <div className="wrapper text-center">
+            <img
+              className="img-responsive banner-bottom"
+              src="./img/banner-convert.svg"
+              alt="Increase your conversion rate, revenue & achieve your goals"
+            />
+            <h1 className="mar-10-bottom mar-30-top weight-400 text-center main-heading">
+            Insipiring heading goes here
+            </h1>
+            <h2 className="mar-15-top mar-20-bottom weight-400 text-center">
+              what is this site.
+            </h2>
+            <div className="text-black icon">
+              <i className="fa fa-angle-down" aria-hidden="true" />
+            </div>
+          </div>
         </div>
+
+        {/* <div className="container">
+          <h1 className="no-mar-bottom">{welcome}</h1>
+        </div> */}
         <div className="blog-wrapper">
           <div className="item item-tall">
 

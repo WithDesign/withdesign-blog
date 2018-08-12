@@ -5,7 +5,7 @@ import Helmet from 'react-helmet'
 import Img from 'gatsby-image'
 import PageHead from '../components/Head';
 import Bio from '../components/Bio'
-
+import BannerImage from '../img/blog-cover.png'
 class BlogIndex extends React.Component {
 
   Welcome() {
@@ -38,32 +38,37 @@ class BlogIndex extends React.Component {
       <div>
         <PageHead
           title={siteTitle}
-          description={''}
-          url="https://.ca/"
+          description={'In depth case studies, posts, and intresting ecommerce info. We are committed to research and educating others in the industry.'}
+          url="https://blog.withdesign.ca/"
         />
         <div className="banner pos-rel">
           <div className="wrapper text-center">
             <img
               className="img-responsive banner-bottom"
-              src="./img/banner-convert.svg"
+              src={BannerImage}
               alt="Increase your conversion rate, revenue & achieve your goals"
             />
             <h1 className="mar-10-bottom mar-30-top weight-400 text-center main-heading">
-            Insipiring heading goes here
+            {welcome}
             </h1>
             <h2 className="mar-15-top mar-20-bottom weight-400 text-center">
-              what is this site.
+              Are you ready to learn about eCommerce, design, developmnet, & optimization?!<br/>
             </h2>
+            <a className="btn btn-cta-1" href="#top">Lets Read!</a>
             <div className="text-black icon">
-              <i className="fa fa-angle-down" aria-hidden="true" />
+              <a href="#top"><i className="fa fa-angle-down" aria-hidden="true" /></a>
             </div>
           </div>
         </div>
 
-        {/* <div className="container">
-          <h1 className="no-mar-bottom">{welcome}</h1>
-        </div> */}
-        <div className="blog-wrapper">
+        <div className="container">
+          {/* <h1 className="no-mar-bottom">{welcome}</h1> */}
+          {/* <h2 className="h6 mar-15-top mar-20-bottom weight-400">
+            Blog With Design is a eCommerce blog about design, development, & optimization.<br/>
+            <small className="weight-300 text-center">Managed all by With Design</small>
+          </h2> */}
+        </div>
+        <div id="top" className="blog-wrapper">
           <div className="item item-tall">
 
           </div>
@@ -77,9 +82,9 @@ class BlogIndex extends React.Component {
                   <br />
                   <small>{node.frontmatter.date}</small>
                   <br />
-                  <h3 className="no-margin ">
+                  <h5 className="no-margin ">
                     {title}
-                  </h3>
+                  </h5>
                   <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
                   </Link>
                 </article>

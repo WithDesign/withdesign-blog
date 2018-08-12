@@ -38,54 +38,44 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "GatsbyJS",
-        short_name: "GatsbyJS",
+        name: "BlogWithDesign",
+        short_name: "BlogWithDesign",
         start_url: "/",
         background_color: "#f7f0eb",
-        theme_color: "#a2466c",
+        theme_color: "#DA2536",
         display: "minimal-ui",
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/img/touch/favicon-57.png`, // This path is relative to the root of the site.
         icons: [
           {
-            src: `icons/icon-48x48.png`,
-            sizes: `48x48`,
+            src: `touch/favicon-57.png`,
+            sizes: `57x57`,
             type: `image/png`,
           },
           {
-            src: `icons/icon-72x72.png`,
+            src: `touch/favicon-72.png`,
             sizes: `72x72`,
             type: `image/png`,
           },
           {
-            src: `icons/icon-96x96.png`,
-            sizes: `96x96`,
+            src: `touch/favicon-114.png`,
+            sizes: `114x114`,
             type: `image/png`,
           },
           {
-            src: `icons/icon-144x144.png`,
+            src: `touch/favicon-144.png`,
             sizes: `144x144`,
             type: `image/png`,
           },
           {
-            src: `icons/icon-192x192.png`,
-            sizes: `192x192`,
+            src: `touch/favicon-152.png`,
+            sizes: `152x152`,
             type: `image/png`,
           },
           {
-            src: `icons/icon-256x256.png`,
-            sizes: `256x256`,
+            src: `touch/favicon-180.png`,
+            sizes: `180x180`,
             type: `image/png`,
-          },
-          {
-            src: `icons/icon-384x384.png`,
-            sizes: `384x384`,
-            type: `image/png`,
-          },
-          {
-            src: `icons/icon-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`,
-          },
+          }
         ],
       },
     },

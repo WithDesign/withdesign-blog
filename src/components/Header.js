@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Logo from '../img/logo-white.svg';
+import Media from "react-media";
 
 const propTypes = {
   className: PropTypes.string,
+  location: PropTypes.string,
 };
 
 const defaultProps = {
   className: '',
+  location: '',
 };
 
 class Header extends Component {
@@ -27,12 +30,9 @@ class Header extends Component {
     });
   }
 
-//
   render() {
-    const { className } = this.props;
+    const { className, location } = this.props;
     const { activeMenu } = this.state;
-    const isMobile = window.innerWidth <= 500;
-    const isTab = window.innerWidth <= 992;
 
     let rootPath = `/`
     if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
@@ -42,32 +42,32 @@ class Header extends Component {
     return (
       <header>
         <div className={`clearfix nav-wrapper ${className}`}>
-          {(isMobile || isTab) &&
-            <button className="mobile-nav-toggle" onClick={() => this.handleClick('menu-active')}>
-              <i className="fa fa-bars" />
-            </button>}
+          <Media
+            query="(max-width: 992px)"
+            render={() => <button className="mobile-nav-toggle" onClick={() => this.handleClick('menu-active')}><i className="fa fa-bars" /></button>}
+          />
           <a className="logo" href="/">
             <img className="img-responsive pull-left" src={Logo} alt="With Design Agency" />
           </a>
-          <nav className={`${(isMobile || isTab) ? 'mobile-nav' : ''} ${activeMenu ? 'mobile-nav-show' : 'mobile-nav-hidden'}`}>
+          <nav className={`${activeMenu ? 'mobile-nav-show mobile-nav' : 'mobile-nav-hidden mobile-nav'}`}>
             <a className="btn pull-right cta" href="https://withdesign.ca/start">Get Started</a>
             <a className="btn pull-right" href="https://withdesign.ca/partners">Partners</a>
             <a className="btn pull-right" href="https://withdesign.ca/research">Research</a>
             <a className="btn pull-right" href="https://withdesign.ca/about">About</a>
             <a className="btn pull-right" href="https://withdesign.ca/solutions">Solutions</a>
-            <a className="btn pull-right" href="https://withdesign.ca/">Home</a>
+            {/* <a className="btn pull-right" href="https://withdesign.ca/">Home</a> */}
           </nav>
         </div>
-        {(!isMobile || !isTab) &&
+        {/* {(!isMobile || !isTab) && */}
           <div className="sub-menu">
-            <a className="pull-right" href="https://withdesign.ca/partners">Updates</a>
+            {/* <a className="pull-right" href="https://withdesign.ca/partners">Updates</a>
             <a className="pull-right" href="https://withdesign.ca/research">Research</a>
             <a className="pull-right" href="https://withdesign.ca/about">Inspiration</a>
-            <a className="pull-right" href="https://withdesign.ca/solutions">Popular</a>
+            <a className="pull-right" href="https://withdesign.ca/solutions">Popular</a> */}
             <a className="pull-right active" href="/">{!(location.pathname === rootPath) && (
             'Back to'
             )} Feed</a>
-          </div>}
+          </div>
       </header>
     );
   }

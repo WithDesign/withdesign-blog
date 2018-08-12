@@ -16,11 +16,11 @@ class Template extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <Header />
+        <Header location={location} />
       )
     } else {
       header = (
-      <Header />
+      <Header location={location} />
       )
     }
     return (
